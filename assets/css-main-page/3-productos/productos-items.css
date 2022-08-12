@@ -1,0 +1,143 @@
+.subproduct {
+    background: rgb(186, 255, 209);
+    height: 100%;
+    position: absolute;
+    width: 0%;
+}
+
+.subproduct__efecto {
+    animation: barridoAnimacion 10s;
+    animation-play-state: running;
+    background: rgb(78, 192, 116);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100%;
+    position: absolute;
+    width: 0%;
+    z-index: 0;
+
+}
+
+.producto__n1 {
+    background: rgb(63, 63, 63);
+    position: relative;
+
+}
+
+@keyframes barridoAnimacion {
+    0% {
+        width: 1%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.subproduct__n2 {
+    animation: none;
+    animation-iteration-count: unset;
+    background: rgb(170, 170, 170);
+    border-radius: 10px;
+    height: 100%;
+    position: absolute;
+    width: 0%;
+    z-index: 0;
+}
+
+.producto__n2 {
+    background: rgb(63, 63, 63);
+    position: relative;
+}
+
+@keyframes inicioProductN2 {
+    0% {
+        width: 1%;
+    }
+
+    100% {
+        width: 100%;
+    }
+
+}
+
+.subproduct__n3 {
+    animation: none;
+    animation-iteration-count: unset;
+    background: rgb(170, 170, 170);
+    border-radius: 10px;
+    height: 100%;
+    position: absolute;
+    width: 0%;
+    z-index: 0;
+}
+
+.producto__n3 {
+    background: rgb(63, 63, 63);
+    position: relative;
+}
+
+@keyframes inicioProductN3 {
+    0% {
+        width: 1%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+
+.subproduct__n4 {
+    animation: none;
+    animation-iteration-count: unset;
+    background: rgb(170, 170, 170);
+    border-radius: 10px;
+    height: 100%;
+    position: absolute;
+    width: 0%;
+    z-index: 0;
+}
+
+.producto__n4 {
+    background: rgb(63, 63, 63);
+    position: relative;
+}
+
+@keyframes inicioProductN4 {
+    0% {
+        width: 1%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.subproduct__n5 {
+    animation: none;
+    animation-iteration-count: unset;
+    background: rgb(170, 170, 170);
+    border-radius: 10px;
+    height: 100%;
+    position: absolute;
+    width: 0%;
+    z-index: 0;
+}
+
+
+.producto__n5 {
+    background: rgb(63, 63, 63);
+    position: relative;
+}
+
+@keyframes inicioProductN5 {
+    0% {
+        width: 1%;
+    }
+
+    100% {
+        width: 100%;
+    }
+
+}

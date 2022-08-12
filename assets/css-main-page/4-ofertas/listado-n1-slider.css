@@ -1,0 +1,53 @@
+.listado__descripcion--flex {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2vh;
+}
+
+.item__name {
+    color: white;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+.button__arrow {
+    background: rgb(66, 66, 66);
+    height: 30px;
+    width: 70px;
+}
+
+.item__arrows {
+    margin-right: 5%;
+}
+
+#button__left:hover {
+    background: rgb(9, 74, 158);
+    border: 1px solid white
+}
+
+#button__right:hover {
+    background: rgb(9, 74, 158);
+    border: 1px solid white
+}
+
+.left__imagen {
+    height: 15px;
+}
+
+.right__imagen {
+    height: 15px;
+}
+
+
+.consola {
+    height: 179px;
+    border-radius: 15px;
+}
+
+.nombre__consola {
+    color: white;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    padding-top: 2px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css-search-page/1-encabezado/encabezado-busqueda.css" rel="stylesheet" />
+    <link href="./assets/css-search-page/2-busqueda-principal/busqueda.css" rel="stylesheet" />
+    <link href="./assets/css-search-page/3-filtro/filtro.css" rel="stylesheet" />
+    <link href="./assets/css-main-page/reset.css" rel="stylesheet" />
+    <title>E-commerce JO</title>
+</head>
+<body>
+    <header>
+        <div class="encabezado__container">
+              <div class="layout--flex">
+                    <div class="item__layout__logo" data-logo>
+                        <div class="logo"> </div>
+                    </div>
+                    <div class="item__layout__tienda">
+                          <button class="area__tienda" data-store-button="">TIENDA</button>
+                    </div>
+                    <div class="item__layout__iniciarSesion--flex">
+                          <div class="icon__sesion"></div>
+                          <button class="area__iniciarSesion" data-singin-button>INICIAR SESION</button>
+                    </div>
+              </div>
+         </div>
+    </header>
+    <main>
+        <section class="productos">
+                    <div class="container__productos--flex" >
+                         <ul class="item__producto" data-list-products></ul>
+                         <div class="item__filter--flex">
+                            <h1 class="filter__title">Filter</h1>
+                            <button class="filter__Button" data-filter-price="">By price</button>
+                            <button class="filter__Button" data-filter-az> By A-Z</button>
+                         </div>
+                    </div>
+        </section>
+    </main>
+    <script type="module" src="assets/js/search-page/1-search/search-products.js"></script>
+</body>
+</html>

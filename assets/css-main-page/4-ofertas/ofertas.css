@@ -1,0 +1,30 @@
+
+.ofertas {
+    background: rgb(42, 42, 42);
+    padding-bottom: 1vh;
+    padding-top: 10vh;
+}
+
+.ofertas__titulo {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    margin-left: 10vh;
+    padding-bottom: 1vh;
+}
+
+
+@media only screen and (max-width: 768px) {}
+
+
+/*small device*/
+@media only screen and (max-width: 600px) {
+
+    .ofertas {
+        padding-top: 8vh;
+    }
+    .ofertas__titulo {
+        margin: 0 auto;
+        padding-bottom: 2vh;
+    }
+}

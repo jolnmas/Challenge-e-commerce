@@ -1,0 +1,70 @@
+.listado__tema1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+    width: 90%;
+}
+
+.container__listado--flex {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 12vh;
+    transition: all .5s ease;
+    transform: translateX(0%);
+    width: 200%;
+}
+
+.item__listado {
+    margin-left: 2vh;
+    margin-right: 2vh;
+    flex-basis: 8%;
+    height: 240px;
+}
+
+.juegoImagen {
+    height: 100%;
+    border-radius: 15px;
+}
+
+.nombre__juego {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 2px;
+}
+
+.oferta__consola--flex {
+    color: rgb(79, 214, 255);
+    display: flex;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: space-between;
+    margin-right: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.linkProducto {
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px) {}
+
+
+/*small device*/
+@media only screen and (max-width: 600px) {
+    .listado__tema1 {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .item__listado {
+        margin-left: 1vh;
+        margin-right: 1vh;
+        max-width: 23%;
+        height: 240px;
+    }
+  
+}

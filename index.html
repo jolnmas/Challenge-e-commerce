@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link href="/favicon.ico" type="image/x-icon" rel="icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./assets/css-main-page/reset.css" rel="stylesheet" />
+  <link href="./assets/css-main-page/1-encabezado/encabezado.css" rel="stylesheet" />
+  <link href="./assets/css-main-page/2-buscar-contenido/buscar-contenido.css" rel="stylesheet" />
+  <link href="./assets/css-main-page/3-productos/productos.css" rel="stylesheet" />
+  <link href="./assets/css-main-page/3-productos/productos-items.css" rel="stylesheet" />
+  <link href="./assets/css-main-page/4-ofertas/ofertas.css" rel="stylesheet" />
+  <link href="./assets/css-main-page/4-ofertas/listado-n1.css" rel="stylesheet" />
+  <link href="./assets/css-main-page/4-ofertas/listado-n1-slider.css" rel="stylesheet" />
+  <link href="./assets/css-main-page/4-ofertas/listado-n2.css" rel="stylesheet" />
+  <link href="./assets/css-main-page/4-ofertas/listado-n2-slider.css" rel="stylesheet" />
+  <link href="./assets/css-main-page/4-ofertas/listado-n3.css" rel="stylesheet" />
+  <link href="./assets/css-main-page/4-ofertas/listado-n3-slider.css" rel="stylesheet" />
+  <link href="./assets/css-main-page/5-contacto/contacto.css" rel="stylesheet" />
+  <link href="./assets/css-main-page/6-footer/footer.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <title>E-commerce JO</title>
+  </head>
+<body>
+   <header>
+        <div class="encabezado__container">
+              <div class="layout--flex">
+                    <div class="item__layout__logo">
+                        <div class="logo"> </div>
+                    </div>
+                    <div class="item__layout__tienda">
+                          <button class="area__tienda">TIENDA</button>
+                    </div>
+                    <div class="item__layout__iniciarSesion--flex">
+                          <div class="icon__sesion"></div>
+                          <button class="area__iniciarSesion" data-button-sing="">INICIAR SESION</button>
+                    </div>
+              </div>
+         </div>
+  </header>
+<main>
+     <section class="buscar">
+           <div class="container__flex">
+                <div class="item__busqueda_icon">
+                      <div class="search__icon"></div>
+                </div>
+                <div class="item__busqueda_input">
+                    <input type="text" class="input__text" data-input-search  required placeholder="Buscar">
+                </div>
+                <button  type="button" id="search__button" data-find="">Buscar</button>
+               
+           </div>
+     </section>
+
+     <section class="products">
+         <div class="content__products--flex">
+             <div class="main__product "></div>
+             <ul class="all__product   container__products--flex" >
+            </ul>
+          </div>
+     </section>
+
+     <section class="ofertas">
+            <h1 class="ofertas__titulo">OFERTAS</h1>
+            <div class="listado__descripcion--flex"  data-section="games">
+                  <h1 class="item__name">Games</h1>
+                  <div class="item__arrows">
+                        <button id="button__left" class=" button__arrow"  data-slider-games-left>
+                             <img src="assets/img/left--arrow.svg" class="left__imagen" alt="left_Arrow">
+                        </button>
+                        <button id="button__right" class="button__arrow" data-slider-games-right>
+                              <img src="assets/img/right--arrow.svg" class="right__imagen" alt="right_Arrow">  
+                         </button>
+                  </div>
+            </div>
+            <div class="listado__tema1">
+                        <div class="container__listado--flex">
+                        </div>
+            </div>
+            <div class="listado__descripcion--flex  listado__n2__nombre" data-section="consolas">
+                  <h1 class="item__name">Consolas</h1>
+                  <div class="item__arrows">
+                        <button id="button2__left" class=" button__arrow" data-slider-console-left>
+                              <img src="assets/img/left--arrow.svg" class="left__imagen" alt="left_Arrow">
+                        </button>
+                        <button id="button2__right" class="button__arrow" data-slider-console-right>
+                              <img src="assets/img/right--arrow.svg" class="right__imagen" alt="right_Arrow">  
+                        </button>
+                  </div>
+            </div>
+            <div class="listado__tema2">
+                    <div class="container__listadoN2--flex">
+                    </div>
+            </div>
+            <div class="listado__descripcion--flex  listado__n3__nombre"  data-section="varios">
+                <h1 class="item__name">Diversos</h1>
+                <div class="item__arrows">
+                    <button id="button3__left" class=" button__arrow" data-slider-varios-left>
+                        <img src="assets/img/left--arrow.svg" class="left__imagen" alt="left_Arrow">
+                    </button>
+
+                    <button id="button3__right" class="button__arrow" data-slider-varios-right>
+                        <img src="assets/img/right--arrow.svg" class="right__imagen" alt="right_Arrow">  
+                   </button>
+                </div>
+
+            </div>
+            <div class="listado__tema3">
+                    <div class="container__listadoN3--flex">
+                    </div>
+            </div>
+        </section>
+
+        <section class="contacto">
+           <div class="container__contacto--flex">
+                 <img class="item__logo" src="assets/img/JO-Geek.svg" alt="logo">
+                 <div class="item__textos--flex">
+                        <a href="#" class="subItem__nombre">Quienes Somos</a>
+                        <a href="#"class="subItem__nombre">Política de privacidad</a>
+                        <a href="#" class="subItem__nombre">Programa de fidelidad</a>
+                        <a href="#"class="subItem__nombre">Nuestras Tiendas</a>
+                        <a href="#" class="subItem__nombre">Quiero ser franquiciado</a>
+                        <a href="#"class="subItem__nombre">Anúncie aquí</a>
+                 </div>
+                 <div class="item__formulario--flex">
+                        <form method="post" autocomplete="off" name="google-sheet" class="formulario__contacto" >
+                        <h1 class="subItem__titulo">Hable con nosotros</h1>
+                        <div class="nombre__container">
+                              <div class="titulo__nombre">Nombre</div>
+                              <input name="Name" type="text" id="nombreContacto" class="input__name"  placeholder="nombre" maxlength="50">
+                        </div>
+                        <textarea name="Mensaje" name="mensaje" id="inputArea__mensaje" placeholder="Escribe tu mensaje" maxlength="300"></textarea>
+                        <button type="submit" id="button__enviarMensaje">Enviar Mensaje</button>
+                        </form>
+                 </div>
+           </div>
+        </section>
+
+        <footer>
+           <h1 class="footer">Desarrollado por JO
+            2022</h1>
+        </footer>
+
+</main>
+    <script type="module" src="assets/js/home-page/main.js"></script>
+  
+    <script   type="module" src="assets/js/home-page/2-categories/consolas.js"></script>
+    <script type="module" src="assets/js/home-page/2-categories/juegos.js"></script>
+    <script type="module" src="assets/js/home-page/2-categories/varios.js"></script>
+    <script src="assets/js/home-page/3-contacto/enviar-mensaje.js"></script>
+</body>
+</html>

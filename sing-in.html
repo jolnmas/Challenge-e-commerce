@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css-main-page/reset.css" rel="stylesheet" />
+    <link href="./assets/css-login/1-encabezado/encabezado-login.css" rel="stylesheet" />
+    <link href="./assets/css-login/2-sing-in/singIn.css" rel="stylesheet" />
+    <link href="./assets/css-login/3-contacto/mensaje-contacto.css" rel="stylesheet" />
+    <link href="./assets/css-main-page/6-footer/footer.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>E-commerce JO</title>
+</head>
+<body>
+    <header>
+        <div class="encabezado__container">
+              <div class="layout--flex">
+                    <div class="item__layout__logo" data-logo>
+                        <div class="logo" > </div>
+                    </div>
+                    <div class="item__layout__tienda">
+                          <button class="area__tienda" data-singin-store>TIENDA</button>
+                    </div>
+                    <div class="item__layout__iniciarSesion--flex">
+                          <div class="icon__sesion"></div>
+                          <button class="area__iniciarSesion">INICIAR SESION</button>
+                    </div>
+              </div>
+         </div>
+    </header>
+
+    <main>
+        <section class="inicio__sesion">
+                      <div class="sing__in--flex">
+                             <h1 class="item__titulo">Iniciar Sesion</h1>
+                             <input id="email__singIn" data-input-email class="item__singIn" placeholder="admin@ecommerce.com">
+                             <input id="pass__email"data-input-pass  class="item__singIn"placeholder="admin">
+                             <button id="button__entrar" data-singin-account >Sing in</button>
+                     </div>
+        </section>
+
+        <section class="contacto">
+            <div class="container__contacto--flex">
+                  <img class="item__logo" src="assets/img/JO-Geek.svg" alt="logo">
+                  <div class="item__textos--flex">
+                         <a href="#" class="subItem__nombre">Quienes Somos</a>
+                         <a href="#"class="subItem__nombre">Política de privacidad</a>
+                         <a href="#" class="subItem__nombre">Programa de fidelidad</a>
+                         <a href="#"class="subItem__nombre">Nuestras Tiendas</a>
+                         <a href="#" class="subItem__nombre">Quiero ser franquiciado</a>
+                         <a href="#"class="subItem__nombre">Anúncie aquí</a>
+                  </div>
+                 <div class="item__formulario--flex">
+                    <form method="post" autocomplete="off" name="google-sheet" class="formulario__contacto" >
+                        <h1 class="subItem__titulo">Hable con nosotros</h1>
+                        <div class="nombre__container">
+                            <div class="titulo__nombre">Nombre</div>
+                            <input name="Name" type="text" id="nombreContacto" placeholder="nombre" class="input__name"  maxlength="50">
+                        </div>
+                        <textarea name="Mensaje" name="mensaje" id="inputArea__mensaje" placeholder="Escribe tu mensaje" maxlength="300"></textarea>
+                        <button type="submit" id="button__enviarMensaje">Enviar Mensaje</button>
+                        </form>
+                 </div>
+            </div>
+         </section>
+         <footer>
+            <h1 class="footer">Desarrollado por JO
+             2022</h1>
+         </footer>
+    </main>
+    <script type="module" src="assets/js/sing-in-page/sing-in.js"></script>
+    <script src="assets/js/home-page/3-contacto/enviar-mensaje.js"></script>
+</body>
+</html>

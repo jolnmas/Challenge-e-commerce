@@ -1,0 +1,135 @@
+.main__container--flex {
+    display: flex;
+    height: 80vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+.main__left__layout {
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 40%;
+}
+
+.main__right__layout {
+    width: 60%;
+}
+
+.product__container--flex {
+    border-bottom: 2px solid white;
+    display: flex;
+    height: 200px;
+    margin-top: 4vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.item__product-img {
+    background: url(../../img/consolas/Stadia.jpg)no-repeat center/cover;
+    height: calc(100% - 4px);
+    width: 50%;
+}
+
+.item__product--flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.subitem__titulo {
+    color: white;
+    font-size: 20px;
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.update__button {
+    background: rgb(219, 219, 219);
+    border-radius: 10px;
+    border: none;
+    height: 8vh;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.update__button:hover {
+    background: rgb(63, 162, 243);
+    border: 1px solid black;
+}
+
+
+.delete__button {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    height: 8vh;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.delete__button:hover {
+    background: rgb(63, 162, 243);
+    border: 1px solid black;
+}
+
+
+/*tables*/
+@media only screen and (max-width: 768px) {
+
+    .main__container--flex {
+        margin-left: 1vh;
+        margin-right: 1vh;
+    }
+
+    .main__left__layout {
+        width: 60%;
+    }
+
+    .main__right__layout {
+        width: 50%;
+    }
+
+    .delete__button {
+        font-size: 18px;
+    }
+
+    .update__button {
+        font-size: 18px;
+    }
+}
+
+/*small device*/
+@media only screen and (max-width: 600px) {
+    .main__left__layout {
+        width: 50%;
+    }
+
+    .info__img {
+        height: 220px;
+
+    }
+
+    .product__container--flex {
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .delete__button {
+        width: 60%;
+        font-size: 17px;
+        height: 6vh;
+        margin-bottom: 6vh;
+    }
+
+    .update__button {
+        width: 60%;
+        font-size: 17px;
+        height: 6vh;
+
+
+    }
+
+
+}

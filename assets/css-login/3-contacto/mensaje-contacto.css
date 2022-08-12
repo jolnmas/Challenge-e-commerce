@@ -1,0 +1,191 @@
+.contacto {
+    background: rgb(102, 102, 102);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10vh;
+}
+
+.container__contacto--flex {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 8vh;
+    margin-bottom: 3vh;
+}
+
+.item__logo {
+    margin-bottom: 24vh;
+}
+
+.item__textos--flex {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: space-between;
+    margin-left: 15vh;
+}
+
+.item__formulario--flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20vh;
+}
+
+.subItem__titulo {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 2vh;
+}
+
+.nombre__container {
+    margin-bottom: 2vh;
+    width: 55vh;
+}
+
+.titulo__nombre {
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 0.2rem;
+    margin-top: 0.4rem;
+    position: absolute;
+}
+
+.input__name {
+    background: rgb(255, 255, 255);
+    border: none;
+    font-size: 1.2rem;
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 100%;
+}
+
+#inputArea__mensaje {
+    font-size: 18px;
+    height: 70px;
+    margin-bottom: 2vh;
+    resize: none;
+    width: 100%;
+}
+
+#button__enviarMensaje {
+    height: 50px;
+    width: 120px;
+}
+
+
+/*tables*/
+@media only screen and (max-width: 768px) {
+
+    .contacto {
+        margin: 0;
+        padding-top: 1vh;
+    }
+
+    .container__contacto--flex {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .item__logo {
+        height: 40px;
+        margin: 2vh;
+        margin: auto auto;
+    }
+
+    .item__textos--flex {
+
+        font-size: 18px;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        margin-left: 2vh;
+    }
+
+    .item__formulario--flex {
+        margin-left: 2vh;
+    }
+
+    .nombre__container {
+        margin-bottom: 2vh;
+        width: 100%;
+    }
+
+    #inputArea__mensaje {
+        width: 100%;
+
+    }
+}
+
+
+
+
+
+/*small device*/
+@media only screen and (max-width: 600px) {
+
+    .contacto {
+        margin: 0;
+        padding-top: 1vh;
+    }
+
+    .container__contacto--flex {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    .item__logo {
+        height: 40px;
+        margin: 2vh;
+    }
+
+    .item__textos--flex {
+        font-size: 18px;
+        justify-content: center;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+
+    }
+
+    .item__formulario--flex {
+        margin-left: 2vh;
+    }
+
+    .input__name {
+        width: 90%;
+    }
+
+    #inputArea__mensaje {
+        width: 90%;
+
+    }
+
+    #button__enviarMensaje {
+        margin: auto auto;
+
+    }
+
+}
+
+
+/*tables*/
+@media only screen and (max-width: 768px) {
+    .area__tienda {
+        font-size: 14px;
+    }
+
+    .area__iniciarSesion {
+        font-size: 14px;
+
+    }
+
+    .formulario__contacto {
+        width: 95%;
+    }
+
+}
+

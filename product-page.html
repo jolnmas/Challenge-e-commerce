@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css-main-page/reset.css" rel="stylesheet" />
+    <link href="./assets/css-product-page/1-encabezado/encabezado.css" rel="stylesheet" />
+    <link href="./assets/css-product-page/2-principal/producto.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>E-commerce JO</title>
+</head>
+<body>
+    <header>
+        <div class="encabezado__container">
+              <div class="layout--flex">
+                    <div class="item__layout__logo" data-logo>
+                        <div class="logo"> </div>
+                    </div>
+                    <div class="item__layout__tienda">
+                          <button data-store-button class="area__tienda">TIENDA</button>
+                    </div>
+              </div>
+         </div>
+    </header>
+    <main>
+            <div class="product__container--flex">
+                <div class="item__product--flex">
+                       <div class="subitem__img" > <img  class="info__img" data-info-img src="" alt=""></div>
+                       <div class="subitem__info--flex">
+                                <h1 class="info__producto" data-info-title>Tiutlo del producto:</h1>
+                                <p class="info__producto" data-info-description>Descripcion:<br>
+                                 </p>
+                                 <h1 class="info__producto"  data-info-price>Precio:</h1>
+                                 <h1 class="info__producto"  data-info-off>Descuento:</h1>
+                                 <h1 class="info__producto"  data-info-type>Type:</h1>
+                       </div>  
+                </div>
+                <div class="item__option--flex">
+                         <button class="buy__button">Agregar al Carrito</button>
+                         <button class="buy__button">Comprar</button>
+                </div>
+             </div>
+    </main>
+    <script type="module" src="assets/js/product-page/selected-product.js"></script>
+</body>
+</html>
+

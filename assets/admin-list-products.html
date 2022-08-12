@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css-main-page/reset.css" rel="stylesheet" />
+    <link href="css-admin-list/1-encabezado/admin-list.css" rel="stylesheet" />
+    <link href="css-admin-list/2-titulo-list/titulo-list.css" rel="stylesheet" />
+    <link href="css-admin-list/3-main-section/main-section.css" rel="stylesheet" />
+    <link href="css-admin-list/4-update-form/update-product.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Admin E-commerce</title>
+</head>
+<body>
+    <header>
+        <div class="encabezado__container">
+              <div class="layout--flex">
+                    <div class="item__layout__logo" data-logo>
+                        <div class="logo"> </div>
+                    </div>
+                    <div class="item__layout__tienda">
+                          <button class="area__tienda" data-store-page>TIENDA</button>
+                    </div>
+                    <div class="item__layout__cerrarSesion--flex">
+                          <button class="area__cerrarSesion" data-singout>Sing Out</button>
+                          <div class="user__admin">Admin</div>     
+                    </div>
+              </div>
+         </div>
+    </header>
+    <section class="presentacion__list">
+         <ul class="presentacion__container--flex">
+            <li class="item__list--config sub__item--flex" >
+                <img class="sub__image"  src="img/Settings icon.svg" alt="">
+                <h1 class="sub__titulo">Lista de Productos</h1>
+
+
+            </li>
+            <li class="item__list--add  sub__item--flex">
+                 <h1 class="text__addnew">Add New</h1>
+                 <Button class="singout__button" data-add-new>.</Button>
+            </li>
+         </ul>
+   </section>
+
+   <section class="main__section">
+        <div class="main__container--flex">
+                <div class="main__left__layout">   
+                        <div class="container--flex" data-container>      
+                        </div>
+                </div>
+                <div class="main__right__layout">  
+                        <div class="update__container--flex" data-update-form="none">
+                            <h1  class="update__text" data-input-id="">Producto: </h1>   
+                            <div class=container__form--flex>
+                                  <h1 class="label__titulo">Nombre:</h1>
+                                  <input class="input__form" type="text" placeholder="nombre" data-input-name>
+                            </div>
+                            <div class=container__form--flex>
+                                <h1 class="label__titulo">Descripcion:</h1>
+                                <input class="input__form"type="text" placeholder="descripcion" data-input-description>
+                            </div>
+
+                            <div class=container__form--flex>
+                                <h1 class="label__titulo">Precio:</h1>
+                                <input class="input__form"type="text" placeholder="precio" data-input-price>
+                            </div>
+
+                            <div class=container__form--flex>
+                                <h1 class="label__titulo">Descuento:</h1>
+                                <input class="input__form"type="text" placeholder="off"     data-input-off>
+                            </div>
+
+                            <div class=container__form--flex>
+                                <h1 class="label__titulo">Categoria:</h1>
+                                <input class="input__form"type="text" placeholder="game, console, varios" data-input-category>
+                            </div>
+        
+                            <input class="selector__img" type="file" placeholder="img"  data-input-reader ><br>
+                            <img data-img-preview src="" class="img__preview" height="200" alt="Image preview...">
+                            <button class="acept__button" data-accept-button>Aceptar</button>
+                        </div>
+                </div>
+        </div>
+   </section>
+   <script type="module" src="js/admin-page/admin-page.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+body {
+    background: rgb(100, 100, 100);
+}
+
+.encabezado__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.layout--flex {
+    background: rgb(42, 42, 42);
+    display: flex;
+    height: 7vh;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.item__layout__logo {
+    border: 1px solid black;
+    height: 6vh;
+    width: 10vh;
+}
+
+.logo {
+    background: url(../../img/logo.svg) no-repeat center/contain;
+    height: 100%;
+    margin: auto auto;
+    width: 100%;
+}
+
+
+.item__layout__tienda {
+    background: rgb(82, 82, 82);
+    border: 1px solid black;
+    height: 6vh;
+    width: 30vh;
+}
+
+
+.area__tienda {
+    background: rgb(82, 82, 82);
+    border: none;
+    border-bottom: 2px solid greenyellow;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    height: 100%;
+    padding-top: 1.5vh;
+    width: 100%;
+}
+
+.area__tienda:hover {
+    border-bottom: 1px solid blue;
+}
+
+.product__container--flex {
+    display: flex;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    padding-top: 5vh;
+
+}
+
+.item__product--flex {
+    display: flex;
+    height: 500px;
+    width: 70%;
+}
+
+.subitem__img {
+    height: 100%;
+    margin-left: 2vh;
+    margin-bottom: 2vh;
+    width: 40%;
+}
+
+.subitem__info--flex {
+    font-family: 'Josefin Sans', sans-serif;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin-left: 2vh;
+    width: 60%;
+}
+
+.info__producto {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.item__option--flex {
+    border-left: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 30%;
+}
+
+.buy__button {
+    border-radius: 10px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4vh;
+    width: 100px;
+}
+
+
+
+/*tables*/
+@media only screen and (max-width: 768px) {
+    .item__product--flex {
+        flex-direction: column;
+    }
+
+    .subitem__img {
+        height: 70%;
+        width: 80%;
+    }
+
+    .subitem__info--flex {
+        width: 100%;
+
+    }
+
+    .info__producto {
+        margin-bottom: 2vh;
+    }
+
+
+}
+
+/*small device*/
+@media only screen and (max-width: 600px) {
+
+    .item__option--flex {
+        height: 350px;
+        width: 20%;
+    }
+
+    .product__container--flex {
+        justify-content: space-between;
+        margin-left: 0;
+    }
+
+    .buy__button {
+        height: 50px;
+        margin: auto auto;
+        width: 80px;
+    }
+
+    .info__producto {
+        font-size: 14px;
+    }
+
+
+}

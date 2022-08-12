@@ -1,0 +1,59 @@
+.item__filter--flex {
+    background: rgb(165, 165, 165);
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 1vh;
+    margin-top: 4vh;
+    width: 14%;
+}
+
+.filter__title {
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.filter__Button {
+    display: block;
+    height: 4vh;
+    margin: 0 auto;
+    margin-top: 2vh;
+    width: 80%;
+}
+
+.filter__Button--state2 {
+    background: goldenrod;
+    display: block;
+    height: 4vh;
+    margin: 0 auto;
+    margin-top: 2vh;
+    width: 80%;
+}
+
+.oferta__consola--flex {
+    color: rgb(79, 214, 255);
+    display: flex;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: space-between;
+    margin-right: 3vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+
+/*tables*/
+@media only screen and (max-width: 768px) {
+    .item__filter--flex {
+        height: 250px;
+    }
+
+}
+
+/*small device*/
+@media only screen and (max-width: 600px) {
+
+    .item__filter--flex {
+        width: 22%;
+    }
+
+}

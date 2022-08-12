@@ -1,0 +1,100 @@
+body {
+    background: rgb(42, 42, 42);
+}
+
+.encabezado__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.layout--flex {
+    background: rgb(42, 42, 42);
+    display: flex;
+    height: 7vh;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.item__layout__logo {
+    border: 1px solid black;
+    height: 6vh;
+    width: 10vh;
+}
+
+.logo {
+    background: url(../../img/logo.svg) no-repeat center/contain;
+    height: 100%;
+    margin: auto auto;
+    width: 100%;
+}
+
+.item__layout__tienda {
+    background: rgb(82, 82, 82);
+    border: 1px solid black;
+    height: 6vh;
+    width: 30vh;
+}
+
+.area__tienda {
+    background: rgb(82, 82, 82);
+    border: none;
+    border-bottom: 2px solid greenyellow;
+    color: white;
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    padding-top: 1.5vh;
+    width: 100%;
+}
+
+.area__tienda:hover {
+    border-bottom: 1px solid blue;
+}
+
+.item__layout__iniciarSesion--flex {
+    background: rgb(82, 82, 82);
+    border: 1px solid black;
+    display: flex;
+    height: 6vh;
+    justify-content: space-between;
+    width: 40vh;
+}
+
+.icon__sesion {
+    background: url(../../img/singIn--icon.svg) no-repeat center/contain;
+    height: 100%;
+    width: 20%;
+}
+
+.area__iniciarSesion {
+    background: rgb(42, 42, 42);
+    border: none;
+    color: white;
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    padding-top: 1.5vh;
+    width: 80%;
+}
+
+.area__iniciarSesion:hover {
+    border-bottom: 1px solid blue;
+}
+
+
+
+/*tables*/
+@media only screen and (max-width: 768px) {
+
+    .area__tienda {
+        font-size: 14px;
+
+    }
+
+    .area__iniciarSesion {
+        font-size: 14px;
+    }
+}
+
+/*small device*/
+@media only screen and (max-width: 600px) {}

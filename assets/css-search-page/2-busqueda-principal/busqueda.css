@@ -1,0 +1,62 @@
+.container__productos--flex {
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 5vh;
+    width: 100%;
+}
+
+.item__producto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-height: 300px;
+    margin-right: 1vh;
+    padding-top: 4vh;
+    width: 85%;
+
+}
+
+.item__listado {
+    flex-basis: 7%;
+    height: 340px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.juegoImagen {
+    border-radius: 15px;
+    height: 250px;
+}
+
+.nombre__juego {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 2px;
+
+}
+
+.linkProducto {
+    color: rgb(167, 196, 121);
+}
+
+
+/*tables*/
+@media only screen and (max-width: 768px) {}
+
+/*small device*/
+@media only screen and (max-width: 600px) {
+
+    .item__producto {
+        margin: 0;
+        width: 80%;
+    }
+
+    .item__listado {
+        width: 75%;
+    }
+
+}
